@@ -6,7 +6,7 @@
 *
 * class Queue
 *
-* Eine schlichte Implementierung einer Warteschlange mit Funktionen zum einreihen und entfernen von Objekten mit dem Datentyp "int".
+* Eine schlichte Implementierung einer Warteschlange mit Funktionen zum Einreihen und Entfernen von Objekten mit dem Datentyp "int".
 *
 * @author lelan002
 *
@@ -55,7 +55,7 @@ class Queue
         * Methode.
         *
         * @param Keine Parameter.
-        * @return (enqueued == capacity): Ausdruck zum überprüfen, ob die Warteschlange voll ist (Anzahl der eingereihten Elemente entspricht der Anzahl der maximal einreihbaren Elemente).
+        * @return (enqueued == capacity): Ausdruck zum Überprüfen, ob die Warteschlange voll ist (Anzahl der eingereihten Elemente entspricht der Anzahl der maximal einreihbaren Elemente).
         *
         * Beschreibung: Überprüft ob die Warteschlange voll ist.
         *
@@ -70,7 +70,7 @@ class Queue
         * Methode.
         *
         * @param Keine Parameter.
-        * @return (enqueued == 0): Ausdruck zum überprüfen, ob die Warteschlange leer ist (Anzahl der eingereihten Elemente entspricht der Zahl "0").
+        * @return (enqueued == 0): Ausdruck zum Überprüfen, ob die Warteschlange leer ist (Anzahl der eingereihten Elemente entspricht der Zahl "0").
         *
         * Beschreibung: Überprüft ob die Warteschlange leer ist.
         *
