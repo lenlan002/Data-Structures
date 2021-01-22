@@ -44,6 +44,7 @@ class Queue
             {
                 throw fullQueueEx();
             }
+            
             sequence[tail] = value;
 
             enqueued++;
