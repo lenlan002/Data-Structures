@@ -1,5 +1,6 @@
 #ifndef QUEUE_H
 #define QUEUE_H
+#include <limits>
 
 /**
 *
@@ -48,7 +49,6 @@ class Queue
         int tail;
         int capacity;
         int enqueued;
-
 
         /**
         *
@@ -137,7 +137,7 @@ class Queue
                 throw emptyQueueEx();
             }
 
-            sequence[head] = -1;
+            sequence[head] = std::numeric_limits<int>::max();
 
             enqueued--;
 
