@@ -168,7 +168,7 @@ public:
     {
         if(head == nullptr)
         {
-            //throw EmptyListEx();
+            throw EmptyListEx();
         }
 
         Node *temp = tail;
@@ -196,7 +196,7 @@ public:
     {
         if(head == nullptr)
         {
-            //throw EmptyListEx();
+            throw EmptyListEx();
         }
 
         Node *temp = head;
