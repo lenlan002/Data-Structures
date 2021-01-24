@@ -1,14 +1,16 @@
 #ifndef QUEUE_H
 #define QUEUE_H
 #include <limits>
+#include "FullQueueEx.h"
+#include "EmptyQueueEx.h"
 
 /**
 *
 * class Queue
 *
-* Eine schlichte Implementierung einer Warteschlange mit Funktionen zum Einreihen und Entfernen von Objekten mit dem Datentyp "int".
+* Meine Implementierung einer Warteschlange mit Funktionen zum Einreihen und Entfernen von Objekten mit dem Datentyp "int".
 *
-* @author lelan002
+* @author LL
 *
 **/
 class Queue
@@ -100,7 +102,7 @@ class Queue
         {
             if(fullQueue())
             {
-                throw fullQueueEx();
+                throw FullQueueEx();
             }
             
             sequence[tail] = value;
@@ -135,7 +137,7 @@ class Queue
         {
             if(emptyQueue())
             {
-                throw emptyQueueEx();
+                throw EmptyQueueEx();
             }
 
             sequence[head] = std::numeric_limits<int>::max();
