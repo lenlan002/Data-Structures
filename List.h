@@ -1,5 +1,6 @@
 #ifndef LIST_H
 #define LIST_H
+
 /**
 *
 * Struktur der zu speichernden Daten
@@ -11,6 +12,7 @@ struct Node
     Node *next;
     Node *before;
 };
+
 /**
 *
 * class List
@@ -22,11 +24,14 @@ struct Node
 **/
 class List
 {
+    
 private:
+    
     Node *head;
     Node *tail;
 
 public:
+    
     /**
     *
     * Konstruktor.
@@ -47,6 +52,7 @@ public:
     * Gibt den von den Elementen (Typ "Node") reservierten Speicher frei.
     *
     **/
+    
     ~List()
     {
         remove_all();
@@ -64,6 +70,7 @@ public:
     * Gibt "true" zurück wenn der Wert in der Liste enthalten ist.
     *
     **/
+    
     bool contains(int value)
     {
         bool check = false;
@@ -80,6 +87,7 @@ public:
 
         return check;
     }
+    
     /**
     *
     * Methode.
@@ -116,6 +124,7 @@ public:
         tail = any;
         }
     }
+    
     /**
     *
     * Methode.
@@ -152,6 +161,7 @@ public:
             head = any;
         }
     }
+    
     /**
     *
     * Methode.
@@ -180,6 +190,7 @@ public:
 
         tail = temp;
     }
+    
     /**
     *
     * Methode.
@@ -209,6 +220,7 @@ public:
 
         head = temp;
     }
+    
     /**
     *
     * Methode.
