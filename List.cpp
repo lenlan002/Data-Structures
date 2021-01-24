@@ -44,7 +44,7 @@ bool List::contains(int value)
 
     while(temp != nullptr)
     {
-	    if(append == temp->data)
+	    if(value == temp->data)
 	    {
 	    	check = true;
 	    }
