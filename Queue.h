@@ -14,6 +14,7 @@
 class Queue
 {
     public:
+    
         /**
         *
         * Konstruktor mit Parameter.
