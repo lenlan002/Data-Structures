@@ -2,7 +2,7 @@
 #define LIST_H
 /**
 *
-* Comment
+* Struktur der zu speichernden Daten
 *
 **/
 struct Node
