@@ -113,8 +113,8 @@ void List::add_first(int append) {
         head = any;
         tail = any;
     }
-	else
-	{
+    else
+    {
         Node *any = new Node();
 
         any->data = append;
