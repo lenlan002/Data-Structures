@@ -22,9 +22,7 @@ struct Node
 **/
 class List
 {
-
 private:
-
     Node *head;
     Node *tail;
 
