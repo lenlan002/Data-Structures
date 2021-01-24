@@ -11,7 +11,7 @@
 *
 * Meine Implementation eines Stack.
 *
-* @LL
+* @author LL
 *
 **/
 class Stack
