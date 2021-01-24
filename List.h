@@ -15,7 +15,7 @@ struct Node
 *
 * class List
 *
-* Meine Implementation einer Doppelt Verkettetn Liste
+* Meine Implementation einer Doppelt Verketteten Liste
 *
 * @ LL
 *
