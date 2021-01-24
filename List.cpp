@@ -43,12 +43,12 @@ bool List::contains(int value)
     Node *temp = head;
 
     while(temp != nullptr)
-	{
-        if(append == temp->data)
-        {
-            check = true;
-        }
-        temp = temp->next;
+    {
+	    if(append == temp->data)
+	    {
+	    	check = true;
+	    }
+	    temp = temp->next;
     }
 
     return check;
@@ -77,8 +77,8 @@ void List::add_last(int append)
     head = any;
     tail = any;
     }
-	else
-	{
+    else
+    {
     Node *any = new Node();
 
     any->data = x;
@@ -141,7 +141,7 @@ void List::remove_last()
 {
     if(head == nullptr)
     {
-        //throw EmptyListEx();
+        throw EmptyListEx();
     }
 
     Node *temp = tail;
@@ -169,7 +169,7 @@ void List::remove_first()
 {
     if(head == nullptr)
     {
-        //throw EmptyListEx();
+        throw EmptyListEx();
     }
 
     Node *temp = head;
