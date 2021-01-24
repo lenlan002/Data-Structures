@@ -4,5 +4,5 @@ In diesem Verzeichnis befinden sich Implementationen von grundlegenden Datenstru
 
 Literatur: "Algorithmen - Eine Einführung" von Thomas H. Cormen
 
-TODO:
+To do:
 > Stack.h Kommentare ergänzen
