@@ -1,6 +1,6 @@
 #ifndef STACK_H
 #define STACK_H
-#include "Stack.h"
+
 #include "UnderflowEx.h"
 #include "OverflowEx.h"
 
