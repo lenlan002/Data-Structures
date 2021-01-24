@@ -81,7 +81,7 @@ void List::add_last(int append)
     {
     Node *any = new Node();
 
-    any->data = x;
+    any->data = append;
     tail->next = any;
     any->before = tail;
     any->next = nullptr;
